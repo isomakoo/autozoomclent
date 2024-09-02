@@ -1,0 +1,185 @@
+.hero {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .hero-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hero-navbar {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hero-link {
+    font-size: 16px;
+    color: white;
+  }
+  
+  .hero-logo {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .hero-nav {
+    text-align: end;
+  }
+  
+  .hero-input {
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(177, 177, 177);
+    border: transparent;
+    font-size: 18px;
+    box-shadow: inset 10px 0px rgba(255, 255, 255, 0.4);
+    background: #111219;
+  }
+  
+  .hero-input:hover {
+    border: transparent;
+  }
+  h2{
+    font-size: 18px;
+    color: white;
+  }
+  
+  .hero-title {
+    color: #fff;
+    margin-top: 50px !important;
+    margin: 0 auto;
+    font-family: Merriweather;
+    font-size: 36px;
+    letter-spacing: 5px;
+    line-height: 50px;
+    margin-bottom: 8px !important;
+    max-width: 540px;
+    text-align: center;
+  }
+  
+  .hero-text {
+    color: #fff9;
+    font-size: 16px;
+    margin: 0 auto;
+    letter-spacing: 1.3px;
+    margin-bottom: 43px;
+    max-width: 700px;
+    text-align: center;
+  }
+  
+  .hero-home {
+    width: 350px;
+    margin-top: 0 !important;
+    margin: 0 auto;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  
+  .hero-texts {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .car-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .car-slide img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hero-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .car-info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .swiper-comp {
+    background: linear-gradient(0deg, #343744 .26%, #343744 73.51%, #24242400);
+    margin: 0 auto;
+    padding: 0 0 12px;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .swiper-slide{
+    margin-left: 0 !important;
+  }
+  .hero-icons{
+    width: 1200px;
+    height: 70px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .hero-images {
+    width: 800px;
+    max-width: 80%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .hero-prev{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav-button , .nav-button:hover, .nav-button::after, .hero-btnes{
+    position: relative;
+    top: 0px;
+    background: transparent; /* Fon rangini olib tashlash */
+    border: none; /* Chegaralarni olib tashlash */
+    padding: 0; /* Tugma atrofidagi bo'shliqni olib tashlash */
+    cursor: pointer; /* Kursorni tugma ustiga olib borilganda o'zgartiring */
+  }
+  .prev-button{
+    margin-right: 100px;
+  }
+  .next-button{
+    margin-left: 100px;
+  }
+  .nav-button img {
+    display: block; /* Tasvirni blok elementga aylantirish */
+  }
+  .car-item {
+    border: 1px solid white;
+    background-color: black;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 180px; /* elementlar y o'qi bo'ylab butun balandlikka joylashishi uchun */
+  }
+  

@@ -1,0 +1,23 @@
+body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-X: hidden;
+    font-family: AvertaCY, sans-serif;
+    font-size: 18px;
+    line-height: 120%;
+    margin: 0;
+  background: #111219;
+}
+* {
+  box-sizing: border-box;
+  font-family: AvertaCY, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+
+}
