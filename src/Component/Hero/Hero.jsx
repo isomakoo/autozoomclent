@@ -16,6 +16,7 @@ import PrevImg from "../../assets/rigth.svg"; // Image for previous button
 import NextImg from "../../assets/left.svg"; // Image for next button
 import Btn from "../../assets/btn.svg"; // Image for reload button
 import { Link } from "react-router-dom";
+import RentalDubai from "../../Muhammadali_Components/rentalDubai/RentalDubai";
 
 function Hero() {
   const swiperRef = useRef(null);
@@ -199,6 +200,7 @@ function Hero() {
           ))}
         </Swiper>
       </div>
+      <RentalDubai />
     </div>
   );
 }
