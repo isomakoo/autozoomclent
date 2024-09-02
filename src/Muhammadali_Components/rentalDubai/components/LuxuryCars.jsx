@@ -62,7 +62,7 @@ const cars = [
 
 const LuxuryCars = () => {
   return (
-    <div className="py-7">
+    <div className="py-7 container">
       <div className=" py-10 w-full flex text-white font-medium items-center justify-between">
         <h1 className="text-[36px]">LUXURY CARS RENTAL DUBAI</h1>
         <div className="flex items-center gap-3 text-[20px]">
