@@ -16,6 +16,7 @@ import PrevImg from "../../assets/rigth.svg"; // Image for previous button
 import NextImg from "../../assets/left.svg"; // Image for next button
 import Btn from "../../assets/btn.svg"; // Image for reload button
 import { Link } from "react-router-dom";
+import RentalDubai from "../../Muhammadali_Components/rentalDubai/RentalDubai";
 
 function Hero() {
   const swiperRef = useRef(null);
@@ -132,34 +133,33 @@ function Hero() {
           pagination={false}
           loop={true}
           modules={[Navigation]}
-          ref={swiperRef}
-        >
+          ref={swiperRef}>
           <SwiperSlide>
             <div className="car-slide">
               <Link to="/cars">
-              <img src={Mers} alt="Mercedes" className="hero-images" />
+                <img src={Mers} alt="Mercedes" className="hero-images" />
               </Link>
             </div>
           </SwiperSlide>
 
           <SwiperSlide>
             <div className="car-slide">
-            <Link to="/cars">
-              <img src={Lambo} alt="Lamborghini" className="hero-images" />
+              <Link to="/cars">
+                <img src={Lambo} alt="Lamborghini" className="hero-images" />
               </Link>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="car-slide">
-            <Link to="/cars">
-              <img src={Rols} alt="Rolls Royce" className="hero-images" />
+              <Link to="/cars">
+                <img src={Rols} alt="Rolls Royce" className="hero-images" />
               </Link>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="car-slide">
-            <Link to="/cars">
-              <img src={Audi} alt="Audi" className="hero-images" />
+              <Link to="/cars">
+                <img src={Audi} alt="Audi" className="hero-images" />
               </Link>
             </div>
           </SwiperSlide>
@@ -185,8 +185,7 @@ function Hero() {
                 {slideCars.map((car, index) => (
                   <div key={index} className="car-item">
                     <Link
-                      to={`/cars/${car.id}/${encodeURIComponent(car.title)}`}
-                    >
+                      to={`/cars/${car.id}/${encodeURIComponent(car.title)}`}>
                       <img
                         src={`https://api.autozoomrental.com/api/uploads/images/${car?.image_src}`}
                         alt={car.title}
@@ -201,6 +200,7 @@ function Hero() {
           ))}
         </Swiper>
       </div>
+      <RentalDubai />
     </div>
   );
 }
