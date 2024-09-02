@@ -1,5 +1,6 @@
 import BudgetCars from "./components/BudgetCars";
 import LuxuryCars from "./components/LuxuryCars";
+import MuscleCars from "./components/MuscleCars";
 import SportCars from "./components/SportCars";
 
 const RentalDubai = () => {
@@ -8,6 +9,7 @@ const RentalDubai = () => {
       <BudgetCars />
       <SportCars />
       <LuxuryCars />
+      <MuscleCars />
     </div>
   );
 };
